@@ -1,0 +1,14 @@
+{
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-*": {
+            "externalTemplate": true,
+            "skipStyle": true
+        }
+    },
+    "workbench.tree.indent": 4,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "editor.codeActionsOnSave": {},
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 4, 
+}
