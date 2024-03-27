@@ -148,9 +148,9 @@ export class ButtonComponent {
     }
 
     getSizeClass() {
-        const small = 'text-sm px-4 py-2 shadow hover:shadow-md';
-        const regular = 'text-sm px-6 py-3 shadow hover:shadow-lg';
-        const large = 'text-base px-8 py-3 shadow-md hover:shadow-lg';
+        const small = 'text-xs px-3 py-1 shadow hover:shadow-md';
+        const regular = 'text-sm px-4 py-2 shadow hover:shadow-lg';
+        const large = 'text-base px-6 py-2 shadow-md hover:shadow-lg';
 
         let classesButton = '';
 

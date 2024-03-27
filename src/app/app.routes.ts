@@ -4,12 +4,17 @@ export const routes: Routes = [
     {
         path: '',
         loadComponent: () => import('./website/layoutPage/layoutPage.component'),
-        // children: [
-        //     {
-        //         path: '',
-        //         title: 'Change Detection',
-        //         loadComponent: () => import('./dashboard/pages/change-detection/change-detection.component'),
-        //     }
-        // ]
+        children: [
+            {
+                path: 'login',
+                title: 'Login',
+                loadComponent: () => import('./website/pages/login/login.component'),
+            },
+            {
+                path: 'register',
+                title: 'Register',
+                loadComponent: () => import('./website/pages/register/register.component'),
+            }
+        ]
     }
 ];

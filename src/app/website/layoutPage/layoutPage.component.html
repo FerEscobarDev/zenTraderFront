@@ -1,4 +1,4 @@
-<div class="dark p-56 flex-col space-y-8 justify-start items-center bg-zinc-800">
+<!-- <div class="dark p-56 flex-col space-y-8 justify-start items-center bg-zinc-800">
     <div>
         <app-button color="primary" > Boton de prueba</app-button>
         <app-button color="success" size="regular"> Boton de prueba</app-button>    
@@ -16,4 +16,22 @@
         <app-button variant="link" color="tertiary" size="regular"> Boton de prueba</app-button>    
         <app-button variant="link" color="info" size="large"> Boton de prueba</app-button>
     </div>
-</div>
+</div> -->
+
+<nav class="p-3 w-full flex justify-start items-center gap-2 mb-5">
+    <a routerLink="/"  class="pr-2 pl-2 bg-slate-400 hover:bg-slate-100 border border-gray-500 cursor-pointer">Home</a>
+    <a routerLink="/login" class="pr-2 pl-2 bg-slate-400 hover:bg-slate-100 border border-gray-500 cursor-pointer">Login</a>
+    <a routerLink="/register" class="pr-2 pl-2 bg-slate-400 hover:bg-slate-100 border border-gray-500 cursor-pointer">Register</a>
+    <!-- 
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+    
+    
+    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/profile" routerLinkActive="active">Profile</a>
+    <a routerLink="/settings" routerLinkActive="active">Settings</a>
+    <a routerLink="/logout" routerLinkActive="active">Logout</a> -->
+</nav>
+
+<router-outlet></router-outlet>
+
